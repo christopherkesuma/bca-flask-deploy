@@ -1,0 +1,17 @@
+buat akun github
+
+buka command prompt
+pindah directory ke projek yang ingin di deploy
+
+git init
+
+set config user.name dan user.email di local (ketik di command prompt)
+git config --local user.name "username_anda"
+git config --local user.email email_anda
+
+check apakah user.name dan user.email sudah terganti
+git config --list
+(keluar dengan klik escape terus ketik :q)
+
+buat file .gitignore kemudian isi didalamnya dengan
+.venv
